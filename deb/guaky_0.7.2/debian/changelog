@@ -1,3 +1,27 @@
+guaky (0.7.9) wily; urgency=medium
+
+  * fix tray icon
+
+ -- S. Vyacheslav <k@canva.org>  Thu, 31 Dec 2015 14:02:36 +0300
+
+guaky (0.7.8) wily; urgency=medium
+
+  * fix pixmap
+
+ -- S. Vyacheslav <k@canva.org>  Thu, 31 Dec 2015 13:29:41 +0300
+
+guaky (0.7.7) wily; urgency=medium
+
+  * fix installing scripts
+
+ -- S. Vyacheslav <k@canva.org>  Thu, 31 Dec 2015 13:10:41 +0300
+
+guaky (0.7.6) wily; urgency=medium
+
+  * Fix paths to config
+
+ -- S. Vyacheslav <k@canva.org>  Thu, 31 Dec 2015 12:48:55 +0300
+
 guaky (0.7.5) wily; urgency=medium
 
   * Fix paths

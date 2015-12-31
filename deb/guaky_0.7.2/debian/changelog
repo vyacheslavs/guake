@@ -1,0 +1,11 @@
+guaky (0.7.3) wily; urgency=medium
+
+  * Add python-keybinder to dependency
+
+ -- S. Vyacheslav <k@canva.org>  Thu, 31 Dec 2015 12:08:26 +0300
+
+guaky (0.7.2) wily; urgency=low
+
+  * First version
+
+ -- S. Vyacheslav <k@canva.org>  Thu, 31 Dec 2015 11:11:01 +0300

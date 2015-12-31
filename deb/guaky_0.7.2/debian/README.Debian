@@ -1,0 +1,22 @@
+guaky for Debian
+
+
+This is a dummy package that makes Debian's package management
+system believe that equivalents to packages on which other
+packages do depend on are actually installed.
+
+The special dependencies used in this package are:
+
+Depends: gconf2 (>= 2.28.1-2), libc6 (>= 2.4), libglib2.0-0 (>= 2.12.0), libgtk2.0-0 (>= 2.24.0), libpython2.7 (>= 2.7), libx11-6, python (>= 2.7), python (<< 2.8), notification-daemon, python-notify, python-vte, python-dbus, python-glade2, python-gconf, python-xdg
+Provides: x-terminal-emulator
+
+
+Please note that this is a crude hack and if thoughtlessly used
+might possibly do damage to your packaging system. And please
+note as well that using it is not the recommended way of dealing
+with broken dependencies. Better file a bug report instead.
+
+Deinstallation of this package is only possible when all pending
+dependency issues are properly resolved in some other way. A more
+brutal approach for it's deinstallation is to create and install
+the package configured using an empty control file.

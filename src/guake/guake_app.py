@@ -595,6 +595,9 @@ class Guake(SimpleGladeApp):
         if event.button != 3:
             return False
 
+        self.notebook.get_current_terminal().paste_clipboard()
+        return True
+
         self.showing_context_menu = True
 
         guake_clipboard = gtk.clipboard_get()

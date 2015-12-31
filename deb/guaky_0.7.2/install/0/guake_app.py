@@ -1,0 +1,1 @@
+../../../../src/guake/guake_app.py

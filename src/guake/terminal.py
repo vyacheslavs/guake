@@ -82,12 +82,17 @@ class GuakeTerminal(vte.Terminal):
         self.configure_terminal()
         self.add_matches()
         self.connect('button-press-event', self.button_press)
+        self.connect('selection-changed', self.on_selection_changed)
         self.matched_value = ''
         self.font_scale_index = 0
         self.pid = None
         self.custom_bgcolor = None
         self.custom_fgcolor = None
         self.found_link = None
+
+    def on_selection_changed(self, userdata):
+        if self.get_has_selection():
+            self.copy_clipboard()
 
     def get_pid(self):
         return self.pid

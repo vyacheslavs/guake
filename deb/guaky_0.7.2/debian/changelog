@@ -1,3 +1,15 @@
+guaky (0.7.5) wily; urgency=medium
+
+  * Fix paths
+
+ -- S. Vyacheslav <k@canva.org>  Thu, 31 Dec 2015 12:38:55 +0300
+
+guaky (0.7.4) wily; urgency=medium
+
+  * Fix package
+
+ -- S. Vyacheslav <k@canva.org>  Thu, 31 Dec 2015 12:19:07 +0300
+
 guaky (0.7.3) wily; urgency=medium
 
   * Add python-keybinder to dependency

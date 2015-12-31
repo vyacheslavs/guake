@@ -4,8 +4,8 @@ set -e
 case "$1" in
 	remove|deconfigure)
 		gconf-schemas --unregister guake.schemas
-		update-alternatives --remove guake /usr/bin/guake || true
-                update-alternatives --remove x-terminal-emulator /usr/bin/guake
+		update-alternatives --remove guake /opt/guake/bin/guake || true
+                update-alternatives --remove x-terminal-emulator /opt/guake/bin/guake
 		;;
 	
 
